@@ -1,5 +1,5 @@
 {
-  "name": "Central-Florida_Tech-Blog",
+  "name": "Tech_Talks",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AaronPearson1/Central-Florida_Tech-Blog.git"
+    "url": "git+https://github.com/AaronPearson1/Tech_Talks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AaronPearson1/Central-Florida_Tech-Blog/issues"
+    "url": "https://github.com/AaronPearson1/Tech_Talks/issues"
   },
-  "homepage": "https://github.com/AaronPearson1/Central-Florida_Tech-Blog#readme",
+  "homepage": "https://github.com/AaronPearson1/Tech_Talks#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.1.0",
