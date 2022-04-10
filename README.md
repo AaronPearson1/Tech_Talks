@@ -8,11 +8,11 @@ This is a social media application which users can create accounts to share arti
 
 ## Table of Contents
 
-- [installation](#installation)
-- [usage](#usage)
-- [contributing](#contributing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [Questions](#Questions)
-- [license](#license)
+- [License](#license)
 
 ## Installation
 
