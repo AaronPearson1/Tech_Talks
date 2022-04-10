@@ -1,24 +1,24 @@
 {
   "name": "Tech_Talks",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC) [![Issues](https://img.shields.io/github/issues/gabrielazalta/draft-room)](https://github.com/gabrielazalta/draft-room/issues) [![Issues](https://img.shields.io/github/contributors/gabrielazalta/draft-room)](https://github.com/gabrielazalta/draft-room/graphs/contributors)",
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AaronPearson1/Tech_Talks.git"
+    "url": "git+https://github.com/gabrielazalta/Tech_Talks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AaronPearson1/Tech_Talks/issues"
+    "url": "https://github.com/gabrielazalta/Tech_Talks/issues"
   },
-  "homepage": "https://github.com/AaronPearson1/Tech_Talks#readme",
+  "homepage": "https://github.com/gabrielazalta/Tech_Talks#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.1.0",
@@ -27,7 +27,8 @@
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.4.0"
+    "pass-shark": "^1.0.1",
+    "sequelize": "^6.5.0"
   },
   "devDependencies": {
     "jest": "^26.6.3"

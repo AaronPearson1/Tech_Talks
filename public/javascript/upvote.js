@@ -1,5 +1,3 @@
-
-
 async function upvoteClickHandler(event) {
     event.preventDefault();
 
@@ -22,6 +20,6 @@ async function upvoteClickHandler(event) {
     } else {
         alert(response.statusText);
     }
-};
+}
 
-document.querySelector('.upvote-btn').addEventListener('click', upvoteClickHandler)
+document.querySelector('.upvote-btn').addEventListener('click', upvoteClickHandler);

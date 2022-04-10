@@ -1,201 +1,239 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
-body,
-html {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #333;
-  background-color: white;
+  
+:root {
+    --primary-color: #FFC108;
+    --secondary-color: #D19602;
+    --tertiary-color: #ADADAD;
+    --quaternary-color: #EAEAEA;
 }
 
-a {
-  text-decoration: none;
-  color:navy;
-  font-weight: bold;
-  transition: color 0.1s;
-  font-size: 22px;
+body {
+    font-family: "Work Sans", Arial, Tahoma, sans-serif;
+    color: white;
 }
 
-a:hover {
-  color: #3486eb;
+.flex-row {
+    display: flex;
 }
 
-button {
-  background-color:rgb(45, 183, 155);
-  border: 0;
-  padding: 1%;
-  color: white;
-  font-weight: bold;
-  transition: background-color 0.1s;
-  cursor: pointer;
-  border-radius: 5px;
+/* SECTION STYLE */
+
+section {
+    padding: 200px 150px 0px;
+    align-content: center;
+    justify-content: center;
 }
 
-button:hover {
-  background-color: #3486eb;
+
+/* CARD STYLE */
+
+.card {
+    margin-top: 100px;
+    padding: 60px;
 }
 
-.post-list {
-  margin: 0;
-  padding: 0;
+.card-body {
+    padding: 60px;
+
 }
-#post-title, #post-url{
-  width: 100%;
+.btn-warning {
+  color: #212529;
+  background-color: deeppink;
+  border-color: #ffc107;
+}
+.btn-warning:hover{
+  background-color: goldenrod;
+}
+.text-warning {
+  color: deeppink!important;
+}
+  /* HEADER & NAVBAR STYLE */
+
+/* .nav-color {
+  background-color: rgba(255, 255, 255, 0.842);
+} */
+
+.background-white {
+  background-color: rgba(255, 255, 255, 0.877);
 }
 
-textarea,
-input {
-  padding: 1%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 100%;
-}
-
-textarea:focus,
-input:focus {
-  outline: none;
-  border: 1px solid #3486eb;
-}
-
-textarea {
-  min-width: 40%;
-  min-height: 100px;
-}
-
-form > div {
-  margin-bottom: 2%;
-}
-
-form label {
-  display: block;
-}
-
-.wrapper {
-  width: 100%;
-  min-height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
 
 header {
-  border-bottom: 1px solid #ccc;
-  background-color:rgb(45, 183, 155);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 3%;
-  height: 100px;
+    padding: 20px 0px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/techtalksmain.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+
+  .navbar-brand {
+      cursor: pointer;
+      max-height: 60px;
+  }
   
-}
+  h1 {
+    color: var(--primary-color);
+    position: relative;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
 
-header h1 {
-  font-size: 1em;
+  h3 {
+      line-height: 1.1;
+      font-weight: 500;
+  }
 
-}
+  h5 {
+      padding-bottom: 40px;
+  }
 
-main {
-  flex: 1;
-  padding: 2% 4%;
-}
+  .wrapper {
+      background-image: url(../images/techtalksmain.jpg);
+      background-size: cover;
+      background-position: 80%;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  
+  .container-cta {
+    width: 75%; 
+    text-align: center;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7; 
+  }
+  
+  .container-cta h2 { 
+    font-style: italic;
+    font-size: 55px;
+    font-weight: lighter;
+    color: white;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
-.btn-no-style {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: none;
-  color: skyblue;
-  font-size: 100%;
-  font-weight: bold;
-  transition: color 0.1s;
-  margin-left: 16px;
-}
 
-.btn-no-style:hover {
-  background: none;
-  color: #3486eb;
-}
 
-.delete-post-btn {
-  background-color: rgb(45, 183, 155);
-}
-
-.delete-post-btn:hover {
-  background-color: salmon;
-}
-
-.post {
-  margin-bottom: 2%;
-  line-height: 150%;
-}
-
-.post .title span {
-  font-style: italic;
-  font-size: 90%;
-  color: #7d7d7d;
-}
-
-.edit-link {
-  display: block;
-  margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color:Salmon;
-  transition: background-color 0.1s;
-}
-
-.upvote-btn:hover {
-  background-color: #3486eb;
-}
-
-.comment-form {
-  margin-bottom: 5%;
-}
-
-.comment {
-  padding: 1%;
-  margin-bottom: 1%;
-}
-
-.comment:nth-child(odd) {
-  background-color: #fff5eb;
-}
-
-.comment .meta {
-  font-size: 90%;
-  margin-bottom: 0.5%;
-  opacity: 0.6;
-}
-
-.new-post-form input {
-  width: 300px;
-}
-
-.edit-post-form {
-  margin-bottom: 5%;
-}
+  /* FOOTER STYLE */
 
 footer {
-  border-top: 1px solid #ccc;
-  color: navy;
-  background-color: rgb(45, 183, 155);
-  display: flex;
-  justify-content: center;
-  padding: 1%;
-  font-size: 110%;
-}
-.afooter{
-  font-size: 10px;
-}
-#logout{
-  color: navy;
-  font-size: 22px;
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer h2 {
+    font-size: 21px; 
+    margin: 0;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
 
-}
+
+  @media screen and (max-width: 3000px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+  
+    h1 {
+        text-align: center;
+    }
+  
+    .section-title {
+        width: 80%;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+      width: 100%;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+
+  }
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+  
+    h1 {
+        text-align: center;
+    }
+  
+    .section-title {
+        width: 80%;
+    }
+  
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+  }
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  
+  @media screen and (max-width: 768px) {
+    
+    section {
+        padding: 30px 15px;
+    }
+  
+    header h1 {
+        flex: 1 100%;
+        text-align: center;
+    }
+  
+    .p-text {
+        flex: 100%;
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  
+ @media screen and (max-width: 575px) {
+    .section-title {
+        width: 95%;
+    }
+  }
+} 

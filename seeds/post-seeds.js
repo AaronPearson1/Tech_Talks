@@ -2,19 +2,19 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'This is a cool blog!.',
-    post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
-    user_id: 10
-  },
-  {
-    title: 'This blog is cooler blog!',
-    post_url: 'https://nasa.gov/donec.json',
-    user_id: 8
-  },
-  {
-    title: 'Check this out!',
-    post_url: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    title: 'The Cloud is Booming Son!!',
+    content: 'Are you for On Prem or Cloud Adoption?',
     user_id: 1
+  },
+  {
+    title: 'Social Media. Check out this link on pros v cons!!',
+    content: 'https://www.lifespan.org/lifespan-living/social-media-good-bad-and-ugly',
+    user_id: 2
+  },
+  {
+    title: 'Great new read on Crypto! Comment and let me know your thoughts!!',
+    content: 'https://cryptonews.com/exclusives/how-hedge-nft-collection-with-ethereum-derivatives.htm',
+    user_id: 3
   },
 
 ];

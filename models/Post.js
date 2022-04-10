@@ -13,7 +13,7 @@ class Post extends Model {
         },
         attributes: [
           'id',
-          'post_url',
+          'content',
           'title',
           'created_at',
           [
@@ -23,8 +23,8 @@ class Post extends Model {
         ],
         include: [
           {
-            model: models.Comment, 
-            attributes: ['id', 'comment_text', 'post_id', 'user_id', 'create_id'],
+            model: models.Comment,
+            attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
             include: {
               model: models.User,
               attributes: ['username']
@@ -49,8 +49,8 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    post_url: {
-      type: DataTypes.STRING,
+    content: {
+      type: DataTypes.TEXT,
       allowNull: false,
       
     },
