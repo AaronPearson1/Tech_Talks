@@ -6,6 +6,9 @@
 
 This is a social media application which users can create accounts to share articles, links, comment on each others posts and more. 
 
+Deployed Application
+https://obscure-sea-76616.herokuapp.com/
+
 ## Table of Contents
 
 - [Installation](#installation)
