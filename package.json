@@ -1,7 +1,7 @@
 {
   "name": "Tech_Talks",
   "version": "1.0.0",
-  "description": "[![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC) [![Issues](https://img.shields.io/github/issues/gabrielazalta/draft-room)](https://github.com/gabrielazalta/draft-room/issues) [![Issues](https://img.shields.io/github/contributors/gabrielazalta/draft-room)](https://github.com/gabrielazalta/draft-room/graphs/contributors)",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC) [![Issues](https://img.shields.io/github/issues/AaronPearson1/draft-room)](https://github.com/AaronPearson1/draft-room/issues) [![Issues](https://img.shields.io/github/contributors/AaronPearson1/draft-room)](https://github.com/AaronPearson1/draft-room/graphs/contributors)",
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielazalta/Tech_Talks.git"
+    "url": "git+https://github.com/AaronPearson1/Tech_Talks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gabrielazalta/Tech_Talks/issues"
+    "url": "https://github.com/AaronPearson1/Tech_Talks/issues"
   },
-  "homepage": "https://github.com/gabrielazalta/Tech_Talks#readme",
+  "homepage": "https://github.com/AaronPearson1/Tech_Talks#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.1.0",
