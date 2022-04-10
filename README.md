@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a social media application which users can create accounts to share articles, links, comment on each others posts in more. 
+This is a social media application which users can create accounts to share articles, links, comment on each others posts and more. 
 
 ## Table of Contents
 
