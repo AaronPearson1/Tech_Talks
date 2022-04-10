@@ -191,6 +191,9 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+.afooter{
+  font-size: 10px;
+}
 #logout{
   color: navy;
   font-size: 22px;
